@@ -8,7 +8,7 @@ if (f == NULL) {
     printf("error in fopen\n");
     return -1;
 }
-while (fgets(buffer, 10, stdin) != NULL){
+while (fgets(buffer, 50, stdin) != NULL){
     if (!strcmp(buffer, "end\n")) 
             break;
     fputs(buffer, f);
