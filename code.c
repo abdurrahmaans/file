@@ -14,4 +14,5 @@ while (fgets(buffer, 10, stdin) != NULL){
     fputs(buffer, f);
 }
 fclose(f);
+return 0;
 }
